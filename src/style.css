@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Caption:wght@400;500;600;700&display=swap");
+
+*,
+*::before,
+*:after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Caption", sans-serif;
+}
+
+body {
+  height: 100dvh;
+  background-color: #0d192c;
+  display: grid;
+  place-content: center;
+}
+
+img {
+  max-width: 100%;
+}
